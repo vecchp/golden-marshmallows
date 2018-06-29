@@ -118,7 +118,7 @@ class GoldenSchema(CaseChangingSchema):
     FIELD_TYPE_MAP = {
         TEXT: fields.String,
         String: fields.String,
-        JSON: fields.Raw,
+        JSON: fields.String,
         ENUM: EnumField,
         INTEGER: fields.Integer,
         Integer: fields.Integer,
